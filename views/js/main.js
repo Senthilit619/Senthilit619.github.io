@@ -515,7 +515,7 @@ function updatePositions() {
   var scrollposition = document.body.scrollTop;
   for (var i = 0; i < items.length; i++) {
     var phase = Math.sin((scrollposition / 1250) + (i % 5));
-    //items[i].style.transform = "translateX(100px)";
+    items[i].style.transform = "translateX(100px)";
   }
 
   // User Timing API to the rescue again. Seriously, it's worth learning.
